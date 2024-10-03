@@ -1,0 +1,278 @@
+
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+  font-variation-settings: "SCAN"-70,"BLED"50;
+}
+
+ 
+.mixal{
+  font-family: 'mixal';
+  font-variation-settings: "wght"400;
+}
+  
+h2{
+  font-size: 150px;
+  color:#c9cea9;
+  
+}
+
+#PREMIER{
+  color:#deac89;
+  transform: rotate(90deg);/*inclinaison */
+}
+
+@keyframes animation1 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+color: aquamarine; 
+font-variation-settings: "SCAN"-90,"BLED"100;
+font-size: 50px;
+}
+25%{ /*ici on renseigne la valeur de départ*/
+  color: aquamarine; 
+  font-variation-settings: "SCAN"-90,"BLED"100;
+  font: size 80px; 
+  transform: rotate(90deg);
+  }
+100%{/*ici on renseigne la valeur de fin*/
+color: #deac89;
+font-variation-settings: "SCAN"-53,"BLED"0;
+font-size: 45x;
+}
+}
+ 
+
+sixtyhour{
+  font-family: 'sixtyhour';
+  font-variation-settings: "SCAN"-100,"BLED"100;
+}
+
+ 
+.mixal{
+  font-family: 'mixal';
+  font-variation-settings: "wght"400;
+}
+  
+h2{
+    position:absolute ;
+    left:25%;
+  font-size: 150px;
+  color:#c9cea9;
+  z-index: -1;
+
+  
+}
+
+h4{
+    position: fixed;
+    left:25%;
+  font-size: 150px;
+  color:#c9cea9;
+  z-index: -1;
+  transform: rotate(20deg);/*inclinaison */;
+  font-variation-settings: "SCAN"-90,"BLED"100;
+    /*Paramètre de l'animation :*/
+    animation-name: animation1; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 20; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+    /*--------------------------------------------------------------------------------------------*/
+    
+    /*vous pouvez éventuellement utiliser :*/
+    animation-play-state: paused; /*mettre en pause une animation*/
+    animation-play-state: running; /*jouer une animation*/
+}
+
+#PREMIER{
+    position: fixed; 
+    top: 20%;
+    left: 40%;
+    font-size: 500x;
+  color:#deac89;
+  transform: rotate(90deg);/*inclinaison */;
+}
+
+h3{
+z-index: -1;
+color:#c9cea9;
+    font-size: 300px;
+    font-variation-settings:"wght"900 ;
+}
+
+#blbl{
+    font-size: large;
+    position: sticky;
+    color:#824ad5;
+    transform: rotate(-20deg);/*inclinaison */;
+    opacity: 0.3;
+    font-size: 500px;
+    mix-blend-mode: exclusion;
+}
+
+
+h3{
+  animation-name: animation2; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 15s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 2; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+  
+
+}
+@keyframes animation2 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+position: relative;
+left:0%;
+font-variation-settings: "wght"100;
+font-size: 50px;
+
+}
+50%{/*ici on renseigne la valeur de fin*/
+  position: relative;
+  left:20%;
+font-variation-settings: "wght"300;
+font-size: 40px;
+color:rgb(255, 168, 127);
+}
+55%{/*ici on renseigne la valeur de fin*/
+  position: relative;
+  left:30%;
+font-variation-settings: "wght"200;
+font-size: 60px;
+color:rgb(253, 255, 127);
+}
+75%{/*ici on renseigne la valeur de fin*/
+  position: relative;
+  left:20%;
+font-variation-settings: "wght"300;
+font-size: 50px;
+color:rgb(131, 255, 127);
+}
+80%{/*ici on renseigne la valeur de fin*/
+  position: relative;
+  left:10%;
+font-variation-settings: "wght"300;
+font-size: 50px;
+color:rgb(127, 172, 255);
+}
+100%{/*ici on renseigne la valeur de fin*/
+  position: relative;
+  left:50%;
+font-variation-settings: "wght"900;
+font-size: 90px;
+color:aquamarine;
+}
+}
+
+
+
+#id{ animation-name: animation3; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 2s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 15; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+  
+  /*vous pouvez éventuellement utiliser :*/
+  animation-play-state: paused; /*mettre en pause une animation*/
+  animation-play-state: running; /*jouer une animation*/
+  
+
+}
+
+
+
+
+@keyframes animation3 { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{ /*ici on renseigne la valeur de départ*/
+
+font-size: 150px;
+
+}
+50%{/*ici on renseigne la valeur de fin*/
+ 
+font-size: 300px;
+
+}
+55%{/*ici on renseigne la valeur de fin*/
+ 
+  font-size: 250px;
+  }
+  100%{/*ici on renseigne la valeur de fin*/
+ 
+    font-size: 150px;
+    }
+
+}
+
+
+
+  
+
+@keyframes hi5{ 
+  0%{ transform: rotate(0deg);
+
+  }
+  50%{ transform: rotate(10deg);
+
+  }
+  50%{ transform: rotate(-25deg);
+
+  }
+}
+
+
+h5{
+  font-size: 300px;
+  font-variation-settings: "wght"400;
+  transition-duration: 2s;
+}
+
+h5:hover{
+  font-variation-settings: "wght"200;
+  color:rgb(65, 189, 102);
+  animation-name:hi5;
+animation-duration: 0,5s;
+animation-iteration-count: infinite;
+transform:rotate(25)
+}
+
+
+
+@keyframes titre6{ 
+  0%{ 
+    color: rgb(0, 255, 170);
+
+
+  }
+  100%{ 
+    color: rgb(255, 127, 127);
+
+  }
+}
+
+h6{
+  animation-name: titre6;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+h6:hover{
+  animation-play-state: running;
+  font-size:100px ;
+}

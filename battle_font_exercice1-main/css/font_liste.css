@@ -1,0 +1,26 @@
+/*Ce fichier contient tous les liens vers les fichiers des différentes fonts variables*/
+
+
+
+@font-face {
+  font-family: 'sixtyhour';
+  src: url(../font/sixtyhour/Sixtyfour.woff2) format('woff2');
+   /*
+  axes : 
+  "SCAN" : épaisseur des lignes((-53)-100)
+  "BLED": longueur des lignes(0-100);
+  */
+}
+
+
+
+
+@font-face {
+  font-family: 'mixal';
+  src: url(../font/mixal/MixalGX.woff2) format('woff2');
+  /*
+  axe : 
+  "wght" : graisse et largeur des caractères(100-900)
+  */
+}
+
